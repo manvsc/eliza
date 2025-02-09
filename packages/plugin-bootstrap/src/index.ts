@@ -11,6 +11,7 @@ import { goalEvaluator } from "./evaluators/goal.ts";
 import { boredomProvider } from "./providers/boredom.ts";
 import { factsProvider } from "./providers/facts.ts";
 import { timeProvider } from "./providers/time.ts";
+import { helloWorldAction } from "./actions/helloworld.ts";
 
 export * as actions from "./actions";
 export * as evaluators from "./evaluators";
@@ -20,6 +21,7 @@ export const bootstrapPlugin: Plugin = {
     name: "bootstrap",
     description: "Agent bootstrap with basic actions and evaluators",
     actions: [
+        helloWorldAction,
         continueAction,
         followRoomAction,
         unfollowRoomAction,
