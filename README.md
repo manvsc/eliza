@@ -1,9 +1,10 @@
 # Eliza 🤖
 
-Use
-pnpm build
-pnpm run start --characters="../characters/modi.character.json"
-pnpm start:client
+Use:
+
+- pnpm build
+- pnpm run start --characters="../characters/modi.character.json"
+- pnpm start:client
 
 
 
